@@ -1,0 +1,27 @@
+#text{
+  float: right;
+  width: 70%;
+
+}
+#imag{
+  background: url('some.png')
+   no-repeat left top ;
+   height: 100vh;
+   width: 30%;
+float: left;
+}
+@media (max-width: 480px) {
+  #text{
+  float: right;
+  width: 100%;
+  }
+
+#imag{
+  float: left;
+  width: 100%;
+}
+
+
+
+
+}
